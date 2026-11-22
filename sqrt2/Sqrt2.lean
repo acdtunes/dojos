@@ -6,7 +6,7 @@ A self-contained proof in core Lean 4 (no Mathlib).
 "√2 is rational" would mean `√2 = p / q` for integers `p`, `q` with `q ≠ 0`,
 i.e. `p * p = 2 * (q * q)`. We show this equation has no solution with
 `q ≠ 0`, by infinite descent: any solution `(p, q)` yields a smaller solution
-`(q / 2, p / 2)`.
+`(p / 2, q / 2)`.
 -/
 
 /-- If `n * n` is even, then `n` is even. -/
